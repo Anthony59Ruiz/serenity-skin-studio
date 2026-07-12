@@ -1,5 +1,5 @@
 /* ============================================================
-   [SPA NAME] — landing interactions
+   Serenity Skin Studio — landing interactions
    ============================================================ */
 
 /* ---------- reveal-on-scroll ---------- */
@@ -34,10 +34,10 @@
   // Keep the keys in sync with the <option value="..."> attributes in index.html,
   // and set the text to match your service names.
   const SERVICE_LABELS = {
-    "service-1": "[SERVICE 1 NAME]",
-    "service-2": "[SERVICE 2 NAME]",
-    "service-3": "[SERVICE 3 NAME]",
-    other: "[OTHER OPTION]",
+    "service-1": "your facial",
+    "service-2": "your microneedling treatment",
+    "service-3": "your chemical peel",
+    other: "your visit",
   };
 
   const validators = {
@@ -116,6 +116,6 @@
             });
      -------------------------------------------------------- */
   function submitLead(data) {
-    console.log("[SPA NAME] lead captured:", data);
+    console.log("[Serenity Skin Studio] lead captured:", data);
   }
 })();

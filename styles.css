@@ -1,14 +1,14 @@
 /* ============================================================
-   Med Spa Landing Template — design tokens
-   Neutral placeholder theme. Change the BRAND COLORS and TYPE
-   below to match your spa; the rest of this file references
-   these tokens, so you rarely need to touch anything else.
+   Serenity Skin Studio — design tokens
+   Calm, boutique, sage-green. The BRAND COLORS and TYPE below
+   define the look; the rest of this file references these
+   tokens, so you rarely need to touch anything else.
    ============================================================ */
 :root {
-  /* ---- BRAND COLORS — change these to match your spa ---- */
-  --accent:      #4a4a4a;   /* [BRAND ACCENT] primary buttons, links, icons */
-  --accent-deep: #2b2b2b;   /* [BRAND ACCENT — hover] a darker shade of accent */
-  --accent-soft: #ececec;   /* [BRAND ACCENT — soft] tint used in hero/backgrounds */
+  /* ---- BRAND COLORS ---- */
+  --accent:      #55764f;   /* sage green — primary buttons, links, icons */
+  --accent-deep: #3f5a3a;   /* deep sage — hover, eyebrows, links on white */
+  --accent-soft: #e7efe3;   /* pale sage — tint used in hero/backgrounds */
 
   /* ---- NEUTRALS — usually fine to leave as-is ---- */
   --bg:          #ffffff;   /* page background */
@@ -20,9 +20,9 @@
   --border:      #e5e5e5;   /* hairlines / card borders */
   --error:       #c0392b;   /* form validation errors */
 
-  /* ---- TYPE — swap for your brand fonts ---- */
-  --serif: Georgia, "Times New Roman", serif;                          /* [HEADING FONT] */
-  --sans:  system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; /* [BODY FONT] */
+  /* ---- TYPE ---- */
+  --serif: Georgia, "Times New Roman", serif;                          /* headings */
+  --sans:  system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; /* body */
 
   /* ---- shape & motion ---- */
   --radius:   18px;
