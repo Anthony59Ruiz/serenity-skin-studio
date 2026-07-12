@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>[SPA NAME] — [TAGLINE]</title>
+  <meta name="description" content="[META DESCRIPTION — one or two sentences describing your spa and inviting a booking. ~150 characters.]" />
+  <link rel="stylesheet" href="styles.css" />
+  <!--
+    Using system fonts by default. To use a custom web font (e.g. Google Fonts),
+    add the <link> tags here and update --serif / --sans in styles.css (:root).
+  -->
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">
+      <span class="brand-mark">[SPA NAME]</span>
+      <span class="brand-sub">[TAGLINE]</span>
+    </a>
+    <nav class="site-nav">
+      <a href="#services">Services</a>
+      <a href="#testimonials">Reviews</a>
+      <a class="btn btn-ghost" href="#book">[NAV CTA]</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">[HERO EYEBROW]</p>
+        <h1>[HERO HEADLINE]</h1>
+        <p class="lede">
+          [HERO SUBHEADLINE — one or two lines describing the experience and the promise.]
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#book">[PRIMARY CTA]</a>
+          <a class="btn btn-text" href="#services">[SECONDARY CTA] →</a>
+        </div>
+        <p class="hero-note">[HERO NOTE]</p>
+      </div>
+      <div class="hero-art reveal" aria-hidden="true">
+        <div class="hero-orb"></div>
+        <div class="hero-card">
+          <span class="hero-card-star">★★★★★</span>
+          <p>"[HERO QUOTE]"</p>
+          <span class="hero-card-name">— [HERO QUOTE ATTRIBUTION]</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+      <div class="section-head reveal">
+        <p class="eyebrow">[SERVICES EYEBROW]</p>
+        <h2>[SERVICES HEADLINE]</h2>
+        <p class="section-sub">[SERVICES SUBHEADLINE]</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card reveal">
+          <div class="service-icon" aria-hidden="true">✦</div>
+          <h3>[SERVICE 1 NAME]</h3>
+          <p>[SERVICE 1 DESCRIPTION — a short, benefit-led blurb, not a clinical description.]</p>
+          <a class="service-link" href="#book">[SERVICE 1 LINK TEXT] →</a>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-icon" aria-hidden="true">❀</div>
+          <h3>[SERVICE 2 NAME]</h3>
+          <p>[SERVICE 2 DESCRIPTION — a short, benefit-led blurb, not a clinical description.]</p>
+          <a class="service-link" href="#book">[SERVICE 2 LINK TEXT] →</a>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-icon" aria-hidden="true">◈</div>
+          <h3>[SERVICE 3 NAME]</h3>
+          <p>[SERVICE 3 DESCRIPTION — a short, benefit-led blurb, not a clinical description.]</p>
+          <a class="service-link" href="#book">[SERVICE 3 LINK TEXT] →</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- SOCIAL PROOF -->
+    <section class="social" id="testimonials">
+      <div class="social-stats reveal">
+        <div class="stat">
+          <span class="stat-num">[STAT 1 NUMBER]<span class="stat-unit">★</span></span>
+          <span class="stat-label">[STAT 1 LABEL]</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">[STAT 2 NUMBER]</span>
+          <span class="stat-label">[STAT 2 LABEL]</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">[STAT 3 NUMBER]</span>
+          <span class="stat-label">[STAT 3 LABEL]</span>
+        </div>
+      </div>
+      <div class="testimonials">
+        <figure class="quote reveal">
+          <blockquote>"[TESTIMONIAL 1 QUOTE]"</blockquote>
+          <figcaption><span class="quote-star">★★★★★</span> [CUSTOMER NAME 1]</figcaption>
+        </figure>
+        <figure class="quote reveal">
+          <blockquote>"[TESTIMONIAL 2 QUOTE]"</blockquote>
+          <figcaption><span class="quote-star">★★★★★</span> [CUSTOMER NAME 2]</figcaption>
+        </figure>
+        <figure class="quote reveal">
+          <blockquote>"[TESTIMONIAL 3 QUOTE]"</blockquote>
+          <figcaption><span class="quote-star">★★★★★</span> [CUSTOMER NAME 3]</figcaption>
+        </figure>
+      </div>
+      <!-- Optional: press / "as featured in" logos. Delete this line if not applicable. -->
+      <p class="as-seen reveal">As featured in <em>[PRESS 1]</em> · <em>[PRESS 2]</em> · <em>[PRESS 3]</em></p>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+      <div class="section-head reveal">
+        <p class="eyebrow">[FAQ EYEBROW]</p>
+        <h2>[FAQ HEADLINE]</h2>
+        <p class="section-sub">[FAQ SUBHEADLINE]</p>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item reveal">
+          <summary>[FAQ QUESTION 1]<span class="faq-mark" aria-hidden="true">+</span></summary>
+          <p>[FAQ ANSWER 1]</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>[FAQ QUESTION 2]<span class="faq-mark" aria-hidden="true">+</span></summary>
+          <p>[FAQ ANSWER 2]</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>[FAQ QUESTION 3]<span class="faq-mark" aria-hidden="true">+</span></summary>
+          <p>[FAQ ANSWER 3]</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>[FAQ QUESTION 4]<span class="faq-mark" aria-hidden="true">+</span></summary>
+          <p>[FAQ ANSWER 4]</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>[FAQ QUESTION 5]<span class="faq-mark" aria-hidden="true">+</span></summary>
+          <p>[FAQ ANSWER 5]</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- LEAD FORM -->
+    <section class="book" id="book">
+      <div class="book-inner reveal">
+        <div class="book-copy">
+          <p class="eyebrow">[FORM EYEBROW]</p>
+          <h2>[FORM HEADLINE]</h2>
+          <p>[FORM BODY — a sentence or two setting expectations for what happens after they submit.]</p>
+          <ul class="book-assurances">
+            <li>[ASSURANCE 1]</li>
+            <li>[ASSURANCE 2]</li>
+            <li>[ASSURANCE 3]</li>
+          </ul>
+        </div>
+
+        <form class="lead-form" id="lead-form" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" placeholder="Your full name" required />
+            <p class="error" data-error-for="name"></p>
+          </div>
+
+          <div class="field">
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="(555) 123-4567" required />
+            <p class="error" data-error-for="phone"></p>
+          </div>
+
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" placeholder="you@email.com" required />
+            <p class="error" data-error-for="email"></p>
+          </div>
+
+          <div class="field">
+            <label for="service">I'm interested in</label>
+            <select id="service" name="service" required>
+              <option value="" disabled selected>Select a service</option>
+              <option value="service-1">[SERVICE 1 NAME]</option>
+              <option value="service-2">[SERVICE 2 NAME]</option>
+              <option value="service-3">[SERVICE 3 NAME]</option>
+              <option value="other">[OTHER OPTION]</option>
+            </select>
+            <p class="error" data-error-for="service"></p>
+          </div>
+
+          <button class="btn btn-primary btn-block" type="submit">[FORM SUBMIT BUTTON]</button>
+          <p class="form-fineprint">[FORM FINEPRINT]</p>
+        </form>
+
+        <div class="form-success" id="form-success" hidden>
+          <div class="success-mark" aria-hidden="true">✦</div>
+          <h3>[SUCCESS HEADLINE]</h3>
+          <p id="success-detail">[SUCCESS MESSAGE]</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="brand">
+      <span class="brand-mark">[SPA NAME]</span>
+      <span class="brand-sub">[TAGLINE]</span>
+    </div>
+    <!-- Contact line — fill in or delete any part that doesn't apply. -->
+    <p>[ADDRESS] · [CITY], [STATE] [ZIP] · [PHONE] · [EMAIL] · [HOURS]</p>
+    <!-- Optional social links. Delete if not applicable. -->
+    <p><a href="[INSTAGRAM URL]">Instagram</a> · <a href="[FACEBOOK URL]">Facebook</a></p>
+    <p class="fine">© [YEAR] [SPA NAME]. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
