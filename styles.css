@@ -1,24 +1,24 @@
 /* ============================================================
    Serenity Skin Studio — design tokens
-   Calm, boutique, airy: light blue, crisp white, and beige.
+   Calm, boutique, airy: baby blue, crisp white, and soft beige.
    The BRAND COLORS and TYPE below define the look; the rest of
    this file references these tokens, so you rarely need to
    touch anything else.
    ============================================================ */
 :root {
   /* ---- BRAND COLORS ---- */
-  --accent:      #4a7ea6;   /* calm blue — primary buttons, links, icons */
-  --accent-deep: #35617f;   /* deep blue — hover, eyebrows, links on white */
-  --accent-soft: #dbe7f0;   /* light blue — tint used in hero/backgrounds */
+  --accent:      #8ec5e8;   /* baby blue — primary buttons, icons, stars */
+  --accent-deep: #2f6f96;   /* deeper blue — hover, eyebrows, links on white */
+  --accent-soft: #e8f4fc;   /* pale baby blue — tint used in hero/backgrounds */
 
   /* ---- NEUTRALS ---- */
   --bg:          #ffffff;   /* page background (crisp white) */
-  --bg-alt:      #f4eee2;   /* alternating section background (beige) */
+  --bg-alt:      #faf6ee;   /* alternating section background (soft light beige) */
   --surface:     #ffffff;   /* cards (crisp white) */
   --muted:       #a99f8f;   /* muted warm taupe — subtle labels */
   --text:        #24333d;   /* body + heading text (soft slate) */
   --text-soft:   #5c6b73;   /* secondary text */
-  --border:      #e8e0d1;   /* hairlines / card borders (warm beige) */
+  --border:      #efe7d8;   /* hairlines / card borders (light beige) */
   --error:       #c0392b;   /* form validation errors */
 
   /* ---- TYPE ---- */
@@ -97,10 +97,10 @@ section { padding: clamp(4rem, 9vw, 7.5rem) clamp(1.5rem, 5vw, 4rem); }
 }
 .btn-primary {
   background: var(--accent);
-  color: var(--surface);
-  box-shadow: 0 14px 30px -14px rgba(0, 0, 0, 0.45);
+  color: var(--text);
+  box-shadow: 0 14px 30px -14px rgba(47, 111, 150, 0.5);
 }
-.btn-primary:hover { background: var(--accent-deep); transform: translateY(-2px); }
+.btn-primary:hover { background: var(--accent-deep); color: var(--bg); transform: translateY(-2px); }
 .btn-ghost {
   border-color: var(--muted);
   color: var(--text);
